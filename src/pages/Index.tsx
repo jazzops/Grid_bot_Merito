@@ -111,6 +111,7 @@ const Index = () => {
           y: headerTranslateY
         }}
       >
+              <Tutorial />
         <div className="flex flex-col sm:flex-row justify-between items-center p-4 border-b">
           <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto mb-4 sm:mb-0">
             <ApiKeySettings />
